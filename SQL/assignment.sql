@@ -104,4 +104,4 @@ AND ts.nama_zona = z.nama
 AND ts.nama_organisasi = z.nama_organisasi
 AND p.email_member = m.email_member
 GROUP BY p.email_member, m.pekerjaan, py.paypal_id
-HAVING SUM(z.harga) > 7000000
+HAVING SUM(z.harga) > 7000000;
